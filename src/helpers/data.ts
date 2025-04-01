@@ -20,7 +20,7 @@ export const EXPERIENCES = [
             en: "Fullstack Developer"
         },
         company: {
-            vi: "Công ty ABCXYZ Ltd.",
+            vi: "Trường đại học Công Thương Thành phố Hồ Chí Minh Ltd.",
             en: "ABCXYZ Ltd."
         },
         duration: {
