@@ -19,6 +19,17 @@ const HomePage = () => {
     const scrollToExperienceSection = () => {
         expRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
+
+    // Thêm hàm handleDownLoadCV như bên heroleft để bấm vào download CV
+    const openInNewTab = (url: string): void => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+        if (newWindow) newWindow.opener = null;
+    };
+
+    const handleDownLoadCV = () => {
+        openInNewTab("https://drive.google.com/file/d/1rweTfkVSJWnobTqG5p_NVYCobHr9HFZd/view?usp=sharing");
+    };
+
     return (
         <div className="homepage-screen">
             <div style={{
@@ -46,6 +57,7 @@ const HomePage = () => {
                             <ResizeButton
                                 btnText={t("heroSection.cv")}
                                 btnIcons={<MdFileDownload />}
+                                onClick={handleDownLoadCV}
                             />
                         </Col>
                     </Row>

@@ -62,7 +62,8 @@ const HeroLeft = (props: IProps) => {
                     udemy={APP_DATA.UDEMY_URL}
                 />
             </div>
-            <div className="d-md-flex d-none gap-4">
+            <div className="d-md-flex gap-4">
+                {/* <div className="d-md-flex d-none gap-4"> */}
                 <ResizeButton onClick={props.scrollToExperienceSection}
                     btnText={t("heroSection.exp")}
                     btnIcons={<AiFillFire style={{ color: "orange" }} />}
