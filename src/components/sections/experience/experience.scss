@@ -1,0 +1,16 @@
+.link-company {
+  color: var(--text-link);
+  position: relative;
+  z-index: 10;
+  text-decoration: underline;
+}
+
+body.light .link-company {
+  --text-link: #0d6efd;
+  /* blue cho light theme */
+}
+
+body.dark .link-company {
+  --text-link: #ffffff;
+  /* trắng cho dark theme */
+}

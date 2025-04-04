@@ -8,6 +8,7 @@ import blurImg from 'assets/blur-23.svg'
 import { useCurrentApp } from "components/context/app.context";
 import { useTranslation } from "react-i18next";
 import { relative } from "path";
+import "components/sections/experience/experience.scss"
 
 type TLanguage = "vi" | "en"
 const Experience = () => {
@@ -51,8 +52,8 @@ const Experience = () => {
                                             <div className="info">
                                                 <p className="title">{experience.title[currentLanguage]}</p>
                                                 <p className="company">{experience.company[currentLanguage] === "Công ty F (freelancer)" || experience.company[currentLanguage] === "F (freelancer)" ? (
-                                                    <a href="https://congtythietkenoithat.vn/" target="_blank" style={{ color: "white", position: "relative", zIndex: 10, }}>
-                                                        {experience.company[currentLanguage]} {" -> go to BMT Decor"}
+                                                    <a href="https://congtythietkenoithat.vn/" target="_blank" className="link-company" style={{ position: "relative", zIndex: 10, }}>
+                                                        <p className="company">{experience.company[currentLanguage]}{" -> go to BMT Decor"}</p>
                                                     </a>
                                                 ) : experience.company[currentLanguage]}</p>
                                             </div>
@@ -66,7 +67,7 @@ const Experience = () => {
 
             </Col>
 
-        </Row>
+        </Row >
 
     )
 }

@@ -92,7 +92,7 @@ const About = () => {
                         youtube={APP_DATA.YOUTUBE_URL}
                         facebook={APP_DATA.FACEBOOK_URL}
                         tiktok={APP_DATA.TIKTOK_URL}
-                        udemy={APP_DATA.UDEMY_URL}
+                        udemy={APP_DATA.GITHUB_URL}
                     />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">

@@ -1,18 +1,19 @@
 import nestImg from 'assets/project/nestjs.png';
 import nextjsImg from 'assets/project/nextjs.jpeg';
-import reactNativeImg from 'assets/project/react-native.png';
 import reactUltimateImg from 'assets/project/react-ultimate.png';
-import springMvcImg from 'assets/project/spring-mvc.png';
-import springRestImg from 'assets/project/spring-rest.png';
 import uiBase from 'assets/uibase.jpeg';
 import imgDesign from 'assets/imgdesign.avif';
 import webShopee from 'assets/webshopee.png';
+import bookSaw from 'assets/booksaw.png';
+import cafeteriaShop from 'assets/cafeteriashop.png';
+import gorGame from 'assets/gorgame.png';
+
 
 
 export const APP_DATA = {
     YOUTUBE_URL: "https://www.youtube.com/@phuongnam3119/videos",
     TIKTOK_URL: "https://www.tiktok.com/@pikuchamizunoizumi",
-    UDEMY_URL: "https://www.udemy.com/user/phuong-nam-32/",
+    GITHUB_URL: "https://github.com/PHUONGNAMKEM",
     FACEBOOK_URL: "https://www.facebook.com/nakroth.megan"
 }
 
@@ -96,29 +97,29 @@ export const PROJECTS = [
     {
         id: 4,
         type: {vi: "Dự án Mini", en:"Mini Project"},
-        imgPath: nextjsImg,
-        title: {vi: "Website Bán Mắt Kính", en: "Website Glasses Sales"},
+        imgPath: gorGame,
+        title: {vi: "Game Giải cứu", en: "Game Helps"},
         description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html"
+        githubLink: "https://github.com/PHUONGNAMKEM/GameA-_HillClimbing",
+        demoLink: "https://gorgame.cafeteriashop.io.vn/"
     },
     {
         id: 5,
         type: {vi: "Dự án hoàn chỉnh", en:"Finished Website Project"},
-        imgPath: nestImg,
-        title: {vi: "Website Bán Mắt Kính", en: "Website Glasses Sales"},
-        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
-        githubLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html"
+        imgPath: cafeteriaShop,
+        title: {vi: "Website Bán Cà phê", en: "Website Coffee"},
+        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript và C#. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, JavaScript and C# with MVC model - ADO technique. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
+        githubLink: "https://github.com/Hoctapjs/LapTrinhWeb",
+        demoLink: "https://caphe.huynhthanhson.io.vn/"
     },
     {
         id: 6,
-        type: {vi: "Dự án Mini", en:"Mini Project"},
-        imgPath: reactUltimateImg,
-        title: {vi: "Website Bán Mắt Kính", en: "Website Glasses Sales"},
-        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html"
+        type: {vi: "Dự án hoàn chỉnh", en:"Finished Website Project"},
+        imgPath: bookSaw,
+        title: {vi: "Website Bán Sách", en: "Website Books Sales"},
+        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript và C#. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, JavaScript and C# with MVC model - ADO technique. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
+        githubLink: "https://github.com/Hoctapjs/WebBanSach",
+        demoLink: "https://booksaw.huynhthanhson.io.vn/"
     }
 ]
 
