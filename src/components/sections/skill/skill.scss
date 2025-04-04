@@ -23,6 +23,7 @@
     .skills-marquee {
         width: 100%;
         margin-bottom: 50px;
+        overflow-x: auto;
 
         .skill-item {
             margin: 12px 20px;

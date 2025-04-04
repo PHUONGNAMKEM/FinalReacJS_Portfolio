@@ -7,6 +7,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import blurImg from 'assets/blur-23.svg'
 import { useCurrentApp } from "components/context/app.context";
 import { useTranslation } from "react-i18next";
+import { relative } from "path";
 
 type TLanguage = "vi" | "en"
 const Experience = () => {
@@ -25,11 +26,11 @@ const Experience = () => {
                 <AnimationLottie animationPath={experienceJSON} />
             </Col>
             <Col md={6} xs={12}>
-                <div className="d-flex flex-column gap-5">
+                <div className="gap-5 d-flex flex-column">
                     {
                         EXPERIENCES.map(experience => (
                             <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
-                                <div className="p-3 relative">
+                                <div className="relative p-3">
                                     {theme === "dark" &&
                                         <img
                                             style={{ position: "absolute", bottom: 0, opacity: 0.8 }}
@@ -49,7 +50,11 @@ const Experience = () => {
                                             </div>
                                             <div className="info">
                                                 <p className="title">{experience.title[currentLanguage]}</p>
-                                                <p className="company">{experience.company[currentLanguage]}</p>
+                                                <p className="company">{experience.company[currentLanguage] === "Công ty F (freelancer)" || experience.company[currentLanguage] === "F (freelancer)" ? (
+                                                    <a href="https://congtythietkenoithat.vn/" target="_blank" style={{ color: "white", position: "relative", zIndex: 10, }}>
+                                                        {experience.company[currentLanguage]} {" -> go to BMT Decor"}
+                                                    </a>
+                                                ) : experience.company[currentLanguage]}</p>
                                             </div>
                                         </div>
                                     </div>

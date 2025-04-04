@@ -4,12 +4,16 @@ import reactNativeImg from 'assets/project/react-native.png';
 import reactUltimateImg from 'assets/project/react-ultimate.png';
 import springMvcImg from 'assets/project/spring-mvc.png';
 import springRestImg from 'assets/project/spring-rest.png';
+import uiBase from 'assets/uibase.jpeg';
+import imgDesign from 'assets/imgdesign.avif';
+import webShopee from 'assets/webshopee.png';
+
 
 export const APP_DATA = {
-    YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
-    TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
-    UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
-    FACEBOOK_URL: "https://www.facebook.com/askITwithERIC/"
+    YOUTUBE_URL: "https://www.youtube.com/@phuongnam3119/videos",
+    TIKTOK_URL: "https://www.tiktok.com/@pikuchamizunoizumi",
+    UDEMY_URL: "https://www.udemy.com/user/phuong-nam-32/",
+    FACEBOOK_URL: "https://www.facebook.com/nakroth.megan"
 }
 
 export const EXPERIENCES = [
@@ -20,8 +24,8 @@ export const EXPERIENCES = [
             en: "Fullstack Developer"
         },
         company: {
-            vi: "Trường đại học Công Thương Thành phố Hồ Chí Minh Ltd.",
-            en: "ABCXYZ Ltd."
+            vi: "Trường đại học Công Thương Thành phố Hồ Chí Minh",
+            en: "HCMC University of Industry and Trade"
         },
         duration: {
             vi: "Jan 2024 - Hiện tại",
@@ -32,7 +36,7 @@ export const EXPERIENCES = [
         id: 2,
         title: {
             vi: "Lập Trình Viên",
-            en: "Fullstack Developer"
+            en: "Design Wordpress Flatsome UI"
         },
 
         company: {
@@ -40,8 +44,8 @@ export const EXPERIENCES = [
             en: "F (freelancer)"
         },
         duration: {
-            vi: "Tháng 6/2022 - Tháng 1/2024",
-            en: "Jun 2022 - Jan 2024"
+            vi: "Tháng 6/2024 - Tháng 10/2024",
+            en: "Jun 2024 - Oct 2024"
         }
     },
     {
@@ -55,8 +59,8 @@ export const EXPERIENCES = [
             en: "Code and build something in everyday."
         },
         duration: {
-            vi: "Tháng 1/2020 - Hiện tại",
-            en: "Jan 2020 - Present"
+            vi: "Tháng 6/2023 - Hiện tại",
+            en: "Jun 2023 - Present"
         }
     }
 ]
@@ -64,49 +68,55 @@ export const EXPERIENCES = [
 export const PROJECTS = [
     {
         id: 1,
-        imgPath: reactNativeImg,
-        title: "React Native Basic",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html"
+        type: {vi: "Giao diện", en:"UI"},
+        imgPath: uiBase,
+        title: {vi: "Website Bán Mắt Kính", en: "Website Glasses Sales"},
+        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
+        githubLink: "https://github.com/PHUONGNAMKEM/ProjectMatKinh",
+        demoLink: "https://project-mat-kinh.vercel.app/"
     },
     {
         id: 2,
-        imgPath: springRestImg,
-        title: "Java Spring REST",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html"
+        type: {vi: "Giao diện", en:"UI"},
+        imgPath: imgDesign,
+        title: {vi: "Giao diện ảnh đơn giản", en: "Basic Image Design"},
+        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
+        githubLink: "https://github.com/PHUONGNAMKEM/ProjectDesignImg",
+        demoLink: "https://project-design-img.vercel.app/"
     },
     {
         id: 3,
-        imgPath: springMvcImg,
-        title: "Java Spring MVC",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html"
+        type: {vi: "Giao diện", en:"UI"},
+        imgPath: webShopee,
+        title: {vi: "Trang chủ shopee", en: "Home Page Shopee"},
+        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
+        githubLink: "https://github.com/PHUONGNAMKEM/ProjectShopee",
+        demoLink: "https://project-shopee-beryl.vercel.app/"
     },
     {
         id: 4,
+        type: {vi: "Dự án Mini", en:"Mini Project"},
         imgPath: nextjsImg,
-        title: "React ProMax with Next.js",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        title: {vi: "Website Bán Mắt Kính", en: "Website Glasses Sales"},
+        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
         githubLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
         demoLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html"
     },
     {
         id: 5,
+        type: {vi: "Dự án hoàn chỉnh", en:"Finished Website Project"},
         imgPath: nestImg,
-        title: "Nest.js Basic",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        title: {vi: "Website Bán Mắt Kính", en: "Website Glasses Sales"},
+        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
         githubLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
         demoLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html"
     },
     {
         id: 6,
+        type: {vi: "Dự án Mini", en:"Mini Project"},
         imgPath: reactUltimateImg,
-        title: "React Ultimate",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        title: {vi: "Website Bán Mắt Kính", en: "Website Glasses Sales"},
+        description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, and JavaScript. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
         githubLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
         demoLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html"
     }
@@ -118,21 +128,21 @@ export const SKILLS_DATA = [
     'Javascript',
     'Typescript',
     'React',
-    'Next JS',
     'Tailwind',
-    'MongoDB',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'AWS',
     'Bootstrap',
+    'MongoDB',
+    'SQL',
+    'DBeaver',
     'Docker',
-    'Go',
+    'Git',
     'Figma',
-    'Firebase',
-    'MaterialUI',
-    'Nginx',
-    'Strapi'
+    'C#',
+    'C',
+    'Python',
+    'Node JS',
+    'Dart',
+    'Flutter'
+
   ]
   
   // Choose your skills from below. Make sure it's in the same format and spelled correctly.

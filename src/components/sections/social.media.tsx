@@ -14,17 +14,17 @@ const SocialMedia = (props: IProps) => {
     const { youtube, tiktok, udemy, facebook } = props;
 
     return (
-        <div className="my-4 d-flex items-center gap-3">
-            <a href={youtube} target='_blank' className="highlight" title="Youtube Hỏi Dân IT">
+        <div className="items-center gap-3 my-4 d-flex">
+            <a href={youtube} target='_blank' className="highlight" title="Youtube iFanIT">
                 <SiYoutubeshorts size={30} />
             </a>
-            <a href={tiktok} target='_blank' className="highlight" title="Tiktok Hỏi Dân IT">
+            <a href={tiktok} target='_blank' className="highlight" title="Tiktok iFanIT">
                 <FaTiktok size={30} />
             </a>
-            <a href={udemy} target='_blank' className="highlight" title="Udemy Hỏi Dân IT">
+            <a href={udemy} target='_blank' className="highlight" title="Udemy iFanIT">
                 <SiUdemy size={30} />
             </a>
-            <a href={facebook} target='_blank' className="highlight" title="Facebook Hỏi Dân IT">
+            <a href={facebook} target='_blank' className="highlight" title="Facebook iFanIT">
                 <FaFacebook size={30} />
             </a>
 

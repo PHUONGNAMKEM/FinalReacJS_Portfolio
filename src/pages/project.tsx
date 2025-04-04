@@ -4,7 +4,7 @@ import Project from "components/sections/project";
 const ProjectPage = () => {
     return (
         <div className="project-screen">
-            <section className="mt-md-5 mt-2 pt-md-5 pt-0">
+            <section className="pt-0 mt-2 mt-md-5 pt-md-5">
                 <Container>
                     <Project />
                 </Container>

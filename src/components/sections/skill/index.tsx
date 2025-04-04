@@ -4,9 +4,14 @@ import Marquee from "react-fast-marquee";
 import './skill.scss';
 import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
+import sql from 'assets/skills/sql.png';
+import dbeaver from 'assets/skills/dbeaver.jpeg';
+import nodeJS from 'assets/skills/nodejs.png';
+
 
 const Skill = () => {
     const { t } = useTranslation();
+
     return (
         <Row className="skills-container">
             <Col xs={12} className="my-3 my-md-5">
@@ -17,7 +22,7 @@ const Skill = () => {
             <Col xs={12} className="skills-marquee">
                 <Marquee
                     gradient={false}
-                    speed={50}
+                    speed={100}
                     pauseOnHover={true}
                     pauseOnClick={true}
                     delay={0}
@@ -28,7 +33,7 @@ const Skill = () => {
                         <div className="skill-item" key={id}>
                             <div className="skill-card">
                                 <img
-                                    src={skillsImage(skill)}
+                                    src={skill === "Node JS" ? nodeJS : skill === "SQL" ? sql : skill === "DBeaver" ? dbeaver : skillsImage(skill) || "skills/default.png"}
                                     alt={skill}
                                     width={40}
                                     height={40}

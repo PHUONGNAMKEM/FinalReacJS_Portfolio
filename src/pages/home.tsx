@@ -11,6 +11,10 @@ import Experience from "components/sections/experience";
 import Skill from "components/sections/skill";
 import { useRef } from "react";
 import { start } from "repl";
+import Project from "./project";
+import TiltedCard from "@/components/tiltedcard/TiltedCard";
+import avatarImg2 from "assets/avt.png";
+
 
 const HomePage = () => {
     const { t } = useTranslation();
@@ -42,7 +46,7 @@ const HomePage = () => {
                 zIndex: 0
             }}>
             </div>
-            <section className="mt-md-7 mt-2" >
+            <section className="mt-2 mt-md-7" >
                 <Container
                     style={{ position: "relative" }}
                 >
@@ -53,7 +57,7 @@ const HomePage = () => {
                         <Col md={6}>
                             <HeroRight />
                         </Col>
-                        <Col xs={12} className="d-md-none d-flex mt-4 justify-content-center">
+                        <Col xs={12} className="mt-4 d-md-none d-flex justify-content-center">
                             <ResizeButton
                                 btnText={t("heroSection.cv")}
                                 btnIcons={<MdFileDownload />}
@@ -69,6 +73,32 @@ const HomePage = () => {
                 </Container>
             </section>
             <Divider />
+            <section>
+                <Container>
+                    {/* <TiltedCard
+                        imageSrc={avatarImg2}
+                        altText="Kendrick Lamar - GNX Album Cover"
+                        captionText="Kendrick Lamar - GNX"
+                        containerHeight="300px"
+                        containerWidth="300px"
+                        imageHeight="300px"
+                        imageWidth="300px"
+                        rotateAmplitude={12}
+                        scaleOnHover={1.2}
+                        showMobileWarning={false}
+                        showTooltip={true}
+                        displayOverlayContent={true}
+                        overlayContent={
+                            <p className="tilted-card-demo-text">
+                                Kendrick Lamar - GNX
+                            </p>
+                        }
+                    /> */}
+                    <Project />
+                </Container>
+            </section>
+            <Divider />
+
             <section ref={expRef}>
                 <Container>
                     <Experience />

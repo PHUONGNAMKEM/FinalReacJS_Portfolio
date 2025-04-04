@@ -7,6 +7,8 @@ interface IProps {
     btnStyle?: React.CSSProperties; // type cho css
     onClick?: () => void;
 }
+
+
 const ResizeButton = (props: IProps) => {
     const { btnText, btnIcons, btnStyle, onClick } = props;
 

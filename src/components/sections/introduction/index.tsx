@@ -1,6 +1,7 @@
 import { Col, Row } from 'react-bootstrap';
 import Tilt from "react-parallax-tilt";
 import avatarImg from "assets/avatar.svg";
+import avatarImg2 from "assets/avt.png";
 import './introduction.scss';
 import { useTranslation } from 'react-i18next';
 
@@ -27,7 +28,7 @@ const Introduction = () => {
                         <br />
                         <br />{t("introSection.heading2")}
                         <i>
-                            <b className='text-pink-100'> Java {t("introSection.and")} Javascript. </b>
+                            <b className='text-pink-100'> Javascript {t("introSection.and")} C#. </b>
                         </i>
                         <br />
                         <br />
@@ -40,20 +41,24 @@ const Introduction = () => {
                         <br />
                         <br />
                         {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;Java Spring</b> </i>
+                        <i><b className='text-pink-100'>&nbsp;ASP.NET</b> </i>
                         {t("introSection.and")}
                         <i>
                             <b className='text-pink-100'>
                                 {" "}
-                                Node.js
+                                Node.js, ReacJS
                             </b>
                         </i>
 
                     </p>
                 </Col>
                 <Col md={3} className='d-md-block d-none'>
-                    <Tilt>
-                        <img src={avatarImg} className="img-fluid" alt="avatar" />
+                    <Tilt style={{ transition: "400ms cubic-bezier(0.03, 0.98, 0.52, 0.99)", transform: "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)" }}>
+                        <img src={avatarImg2} className="img-fluid" alt="avatar" style={{
+                            position: "absolute",
+                            top: "-160px",
+                            left: "-74px",
+                        }} />
                     </Tilt>
                 </Col>
             </Row>
@@ -61,7 +66,7 @@ const Introduction = () => {
                 <span className="about-label">{t("introSection.about")}</span>
                 <span className="vertical-line"></span>
             </div>
-        </section>
+        </section >
     )
 }
 

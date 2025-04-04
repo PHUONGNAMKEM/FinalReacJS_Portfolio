@@ -7,7 +7,9 @@ function Layout() {
   return (
     <div>
       <AppHeader />
-      <Outlet />
+      <div style={{ paddingTop: "70px" }}>
+        <Outlet />
+      </div>
       <AppFooter />
     </div>
   )

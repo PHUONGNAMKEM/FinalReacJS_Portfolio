@@ -15,14 +15,13 @@ const About = () => {
         <>
             <Row>
                 <Col md={6} xs={12}>
-                    <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
+                    <h3 className="mb-2 text-center mb-md-5">Know Who <span className="brand-red">I'M</span> </h3>
                     <div>
                         <div>
-                            <p> Hi Everyone, I am HoiDanIT from Hanoi, VietNam.</p>
+                            <p> Hi Everyone, I am iFanIT from TPHCM, VietNam.</p>
 
-                            <p> I am currently employed as a a freelance dev (start-up).</p>
+                            <p> I am currently employed as a software engineer.</p>
 
-                            <p> I have completed Bachelor's degree in Software Engineer at Hanoi University of Science and Technology (HUST).</p>
                         </div>
                     </div>
                     <div>
@@ -30,9 +29,9 @@ const About = () => {
 
                         </p>
                         <ul>
-                            <li>Playing Games</li>
-                            <li>Writing Tech Blogs</li>
-                            <li>Travelling</li>
+                            <li>Design UI</li>
+                            <li>Watching/Learning E with youtube video</li>
+                            <li>Reading</li>
                         </ul>
                     </div>
                     <div>
@@ -49,7 +48,7 @@ const About = () => {
 
             <Row>
                 <Col md={6} xs={12}
-                    className="d-none d-md-flex align-items-center justify-content-center mt-md-5 mt-3"
+                    className="mt-3 d-none d-md-flex align-items-center justify-content-center mt-md-5"
                 >
                     <AnimationLottie
                         width="50%"
@@ -58,15 +57,15 @@ const About = () => {
                         animationPath={JSON.parse(DEVELOPMENT_LOTTIE)}
                     />
                 </Col>
-                <Col md={6} xs={12} className="mt-md-5 mt-3">
-                    <div className="d-flex flex-column align-items-center gap-3">
+                <Col md={6} xs={12} className="mt-3 mt-md-5">
+                    <div className="gap-3 d-flex flex-column align-items-center">
                         <div><h4 className="text-center brand-red">Education</h4></div>
                         <div >
                             <GlowCard identifier={`experience-5`}>
-                                <div className="p-3 relative">
+                                <div className="relative p-3">
                                     <div className="experience-container">
                                         <div className="duration-text">
-                                            <p>20xx-20xx</p>
+                                            <p>2022-2026</p>
                                         </div>
                                         <div className="details">
                                             <div className="icon">
@@ -74,7 +73,7 @@ const About = () => {
                                             </div>
                                             <div className="info">
                                                 <p className="title">Softwaren Engineer</p>
-                                                <p className="company">Hanoi University of Science and Technology (HUST)</p>
+                                                <p className="company">HCMC University of Industry and Trade (HUIT)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -87,8 +86,8 @@ const About = () => {
 
             <Divider />
             <Row>
-                <Col md={6} xs={12} className=" mt-md-5 mt-3">
-                    <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
+                <Col md={6} xs={12} className="mt-3 mt-md-5">
+                    <h3 className="mb-2 mb-md-5">FIND ME ON </h3>
                     <SocialMedia
                         youtube={APP_DATA.YOUTUBE_URL}
                         facebook={APP_DATA.FACEBOOK_URL}

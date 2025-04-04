@@ -21,29 +21,37 @@ const HeroRight = () => {
                     <div>
                         <span className="ms-4 me-2">name:</span>
                         <span className='text-yellow-500'>
-                            {`'`}Hỏi Dân IT{`',`}
+                            {`'`}Phương Nam{`',`}
                         </span>
                     </div>
                     <div className="ms-4 me-2 text-pink-200">
                         <span className="text-white-0">skills:</span>
                         <span>{`['`}</span>
+
+                        <span >Javascript</span>
+                        <span>{"', '"}</span>
                         <span >React</span>
                         <span>{"', '"}</span>
-                        <span >Redux</span>
+                        <span >NodeJS - Express</span>
                         <span>{"', '"}</span>
-                        <span >NextJS</span>
+                        <span >Typescript</span>
                         <span>{"', '"}</span>
-                        <span >Java Spring</span>
+                        <span >Flutter</span>
                         <span>{"', '"}</span>
-                        <span >NestJS</span>
+                        <span >Dart</span>
                         <span>{"', '"}</span>
-                        <span >NoSQL</span>
+                        <span >C#</span>
+                        <span>{"', '"}</span>
+                        <span >MongoDB</span>
                         <span>{"', '"}</span>
                         <span >SQL</span>
                         <span>{"', '"}</span>
                         <span >Docker</span>
                         <span>{"', '"}</span>
-                        <span >K8S</span>
+                        <span >DBeaver</span>
+                        <span>{"', '"}</span>
+                        <span >SQL</span>
+
                         <span>{"'],"}</span>
                     </div>
                     <div>

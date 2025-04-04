@@ -38,6 +38,7 @@ function AppHeader() {
             expand="lg"
             className="bg-body-tertiary"
             style={{ zIndex: 1 }}
+            fixed="top"
         >
             <Container>
                 <Link className="navbar-brand" to="/">
@@ -72,7 +73,7 @@ function AppHeader() {
                         >
                             <div
                                 onClick={() => i18n.changeLanguage("en")}
-                                className='dropdown-item d-flex gap-2 align-items-center' style={{ cursor: "pointer" }}>
+                                className='gap-2 dropdown-item d-flex align-items-center' style={{ cursor: "pointer" }}>
                                 <img
                                     style={{ height: 20, width: 20 }}
                                     src={enFlag} alt='english'
@@ -82,7 +83,7 @@ function AppHeader() {
                             </div>
                             <div
                                 onClick={() => i18n.changeLanguage("vi")}
-                                className='dropdown-item d-flex gap-2 align-items-center' style={{ cursor: "pointer" }}>
+                                className='gap-2 dropdown-item d-flex align-items-center' style={{ cursor: "pointer" }}>
                                 <img
                                     style={{ height: 20, width: 20 }}
                                     src={viFlag} alt='vietnamese'

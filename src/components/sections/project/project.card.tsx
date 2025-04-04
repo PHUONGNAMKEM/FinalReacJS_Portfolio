@@ -15,7 +15,7 @@ interface IProps {
 function ProjectCard(props: IProps) {
     return (
         <Card className="project-card-view">
-            <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ maxHeight: 215 }} />
+            <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ maxHeight: 215, height: 220 }} />
             <Card.Body className="d-flex flex-column">
                 <Card.Title>
                     {props.title}
