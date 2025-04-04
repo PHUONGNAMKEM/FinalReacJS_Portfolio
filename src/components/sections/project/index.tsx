@@ -41,7 +41,7 @@ const Project = () => {
             </Row>
 
             <Row className="mb-3">
-                <Col xs={12} className="gap-2 overflow-auto d-flex flex-nowrap">
+                <Col xs={12} className="gap-2 overflow-auto d-flex flex-nowrap horizontal-scroll">
                     <Button
                         variant={selectedCategory === null ? "primary" : "outline-primary"}
                         onClick={() => setSelectedCategory(null)}
