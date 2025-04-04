@@ -34,10 +34,9 @@ const Experience = () => {
                                 <div className="relative p-3">
                                     {theme === "dark" &&
                                         <img
-                                            style={{ position: "absolute", bottom: 0, opacity: 0.8 }}
+                                            style={{ position: "absolute", bottom: 0, opacity: 0.8, maxWidth: "calc(100% - 4px)" }}
                                             src={blurImg}
                                             alt="Hero"
-                                            width={"100%"}
                                             height={200}
                                         />
                                     }
