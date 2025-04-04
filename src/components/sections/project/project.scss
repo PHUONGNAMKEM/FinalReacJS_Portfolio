@@ -1,9 +1,8 @@
-@media (max-width: 576px) {
-    .custom-btn {
-        width: auto;
-        height: 40px;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        font-size: 14px;
-    }
+.custom-btn {
+    width: auto;
+    height: 40px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 14px;
+    white-space: nowrap;
 }
