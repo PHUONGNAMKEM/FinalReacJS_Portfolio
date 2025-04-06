@@ -31,7 +31,7 @@ const HomePage = () => {
     };
 
     const handleDownLoadCV = () => {
-        openInNewTab("https://drive.google.com/file/d/1rweTfkVSJWnobTqG5p_NVYCobHr9HFZd/view?usp=sharing");
+        openInNewTab("https://drive.google.com/file/d/12PGryk3PghTUvbW75nGEtJF0JE72_yQt/view?usp=drive_link");
     };
 
     return (
