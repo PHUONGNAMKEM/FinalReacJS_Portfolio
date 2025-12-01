@@ -41,12 +41,12 @@ const Introduction = () => {
                         <br />
                         <br />
                         {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;ASP.NET</b> </i>
+                        <i><b className='text-pink-100'>&nbsp;Node.js, ReactJS with Zustand</b> </i>
                         {t("introSection.and")}
                         <i>
                             <b className='text-pink-100'>
                                 {" "}
-                                Node.js, ReactJS
+                                ASP.NET
                             </b>
                         </i>
 

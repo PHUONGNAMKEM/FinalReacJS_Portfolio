@@ -13,9 +13,9 @@ const HeroRight = () => {
             <div className='second'>
                 <code className="text-white-0">
                     <div>
-                        <span className="me-2 text-pink-100">const</span>
+                        <span className="text-pink-100 me-2">const</span>
                         <span className="me-2">developer</span>
-                        <span className="me-2 text-pink-100">=</span>
+                        <span className="text-pink-100 me-2">=</span>
                         <span>{'{'}</span>
                     </div>
                     <div>
@@ -24,15 +24,15 @@ const HeroRight = () => {
                             {`'`}Phương Nam{`',`}
                         </span>
                     </div>
-                    <div className="ms-4 me-2 text-pink-200">
+                    <div className="text-pink-200 ms-4 me-2">
                         <span className="text-white-0">skills:</span>
                         <span>{`['`}</span>
 
                         <span >Javascript</span>
                         <span>{"', '"}</span>
-                        <span >React</span>
+                        <span >React with Zustand</span>
                         <span>{"', '"}</span>
-                        <span >NodeJS - Express</span>
+                        <span >NodeJS - Express - Restful API</span>
                         <span>{"', '"}</span>
                         <span >Typescript</span>
                         <span>{"', '"}</span>
@@ -55,12 +55,12 @@ const HeroRight = () => {
                         <span>{"'],"}</span>
                     </div>
                     <div>
-                        <span className="ms-4  me-2 ">hardWorker:</span>
+                        <span className="ms-4 me-2 ">hardWorker:</span>
                         <span className="text-red-500">true</span>
                         <span>,</span>
                     </div>
                     <div>
-                        <span className="ms-4  me-2 ">quickLearner:</span>
+                        <span className="ms-4 me-2 ">quickLearner:</span>
                         <span className="text-red-500">true</span>
                         <span>,</span>
                     </div>
@@ -70,28 +70,28 @@ const HeroRight = () => {
                         <span>,</span>
                     </div>
                     <div>
-                        <span className="ms-4 me-2 text-green-700">hireable:</span>
+                        <span className="text-green-700 ms-4 me-2">hireable:</span>
                         <span className="text-red-500">function</span>
                         <span>{'() {'}</span>
                     </div>
                     <div>
-                        <span className="ms-5 me-2 text-red-500">return</span>
+                        <span className="text-red-500 ms-5 me-2">return</span>
                         <span>{`(`}</span>
                     </div>
                     <div>
-                        <span className="ms-5 ps-3 text-blue-100">this.</span>
+                        <span className="text-blue-100 ms-5 ps-3">this.</span>
                         <span className="me-2 ">hardWorker</span>
                         <span className='text-blue-100'>&amp;&amp;</span>
                     </div>
                     <div>
-                        <span className="ms-5 ps-3 text-blue-100">this.</span>
+                        <span className="text-blue-100 ms-5 ps-3">this.</span>
                         <span className="me-2 ">problemSolver</span>
                         <span className='text-blue-100'>&amp;&amp;</span>
                     </div>
                     <div>
-                        <span className="ms-5 ps-3 text-blue-100">this.</span>
+                        <span className="text-blue-100 ms-5 ps-3">this.</span>
                         <span className="me-2">skills.length</span>
-                        <span className="me-2 text-blue-100">&gt;=</span>
+                        <span className="text-blue-100 me-2">&gt;=</span>
                         <span className="text-red-500">5</span>
                     </div>
                     <div><span className="ms-5 me-2 ">{`);`}</span></div>

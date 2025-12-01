@@ -23,7 +23,8 @@ const HeroLeft = (props: IProps) => {
 
 
     const handleDownLoadCV = () => {
-        openInNewTab("https://drive.google.com/file/d/12PGryk3PghTUvbW75nGEtJF0JE72_yQt/view?usp=sharing");
+        // openInNewTab("https://drive.google.com/file/d/12PGryk3PghTUvbW75nGEtJF0JE72_yQt/view?usp=sharing");
+        openInNewTab("https://drive.google.com/file/d/1CRXnNKzBux7qDHVwGsFMqYXREHsUlewv/view?usp=sharing");
     }
 
     return (
