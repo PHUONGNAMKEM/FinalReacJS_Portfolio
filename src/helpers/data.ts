@@ -7,6 +7,7 @@ import webShopee from 'assets/webshopee.png';
 import bookSaw from 'assets/booksaw.png';
 import cafeteriaShop from 'assets/cafeteriashop.png';
 import gorGame from 'assets/gorgame.png';
+import hrmadmin from 'assets/hrmadmin.png';
 
 
 
@@ -120,6 +121,15 @@ export const PROJECTS = [
         description: {vi: "Website được thiết kế đơn giản với HTML, CSS & Javascript và C#. Project đầu tiên code thuần nhưng lại rất chỉnh chu, mang đến một sản phẩm tuyệt vời mang phong cách thanh lịch tao nhã và nhẹ nhàng sang trọng", en: "This website features a simple design built with HTML, CSS, JavaScript and C# with MVC model - ADO technique. Although it was my first project using pure code, it's meticulously crafted, delivering a wonderful product with an elegant, refined, and subtly sophisticated style."},
         githubLink: "https://github.com/Hoctapjs/WebBanSach",
         demoLink: "https://booksaw.huynhthanhson.io.vn/"
+    },
+    {
+        id: 7,
+        type: {vi: "Dự án hoàn chỉnh", en:"Finished Website Project"},
+        imgPath: hrmadmin,
+        title: {vi: "Website Quản Lý Nhân Sự", en: "Website HRM Admin"},
+        description: {vi: "Một hệ thống quản lý nhân sự chuyên nghiệp, đầy đủ, nổi bật và giao diện tối giản tinh thế nhưng vẫn phô diễn được hết thẩy những chức năng cần thiết. Phong cách nhẹ nhàng mà tinh tế đem đếm trải nghiệm vừa dễ dàng làm quen vừa tiện nghi đến khó tả.", en: "A professional and fully featured human resource management system with a refined minimalist interface that still showcases all essential functionalities. Its light yet sophisticated design delivers an experience that is both incredibly easy to get familiar with and surprisingly comfortable to use."},
+        githubLink: "https://github.com/PHUONGNAMKEM/FrontEndAdmin",
+        demoLink: "https://hrm.frontend.ifanit.io.vn/"
     }
 ]
 

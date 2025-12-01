@@ -9,7 +9,7 @@ const Introduction = () => {
     const { t, i18n } = useTranslation();
 
     return (
-        <section className='introduction-section my-5 my-md-7' style={{ position: "relative" }}>
+        <section className='my-5 introduction-section my-md-7' style={{ position: "relative" }}>
             <Row>
                 <Col xs={12} md={9}>
                     <h2 className='text-center text-md-start'>
@@ -46,7 +46,7 @@ const Introduction = () => {
                         <i>
                             <b className='text-pink-100'>
                                 {" "}
-                                Node.js, ReacJS
+                                Node.js, ReactJS
                             </b>
                         </i>
 
