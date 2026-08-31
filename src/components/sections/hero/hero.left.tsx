@@ -6,10 +6,12 @@ import ResizeButton from "components/sections/resize.button";
 import { APP_DATA } from 'helpers/data';
 import { MdFileDownload } from "react-icons/md";
 import { AiFillFire } from "react-icons/ai";
+import { AiFillHeart } from "react-icons/ai";
 
 
 interface IProps {
     scrollToExperienceSection: () => void;
+    handleDownLoadEng: () => void;
 }
 
 const HeroLeft = (props: IProps) => {
@@ -75,11 +77,15 @@ const HeroLeft = (props: IProps) => {
                     }}
                 />
                 <ResizeButton
+                    btnText={t("heroSection.eng")}
+                    btnIcons={<AiFillHeart />}
+                    onClick={props.handleDownLoadEng}
+                />
+                <ResizeButton
                     btnText={t("heroSection.cv")}
                     btnIcons={<MdFileDownload />}
                     onClick={handleDownLoadCV}
                 />
-
             </div>
 
         </div>

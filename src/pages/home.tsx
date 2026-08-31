@@ -35,6 +35,12 @@ const HomePage = () => {
     );
   };
 
+  const handleDownLoadEng = () => {
+    openInNewTab(
+      "https://drive.google.com/file/d/1eZxA983pZSGGpnZwEv3FjI7-xB9ukN9f/view?usp=sharing"
+    );
+  };
+
   return (
     <div className="homepage-screen">
       <div
@@ -52,7 +58,7 @@ const HomePage = () => {
         <Container style={{ position: "relative" }}>
           <Row>
             <Col className="d-none d-md-block" md={6}>
-              <HeroLeft scrollToExperienceSection={scrollToExperienceSection} />
+              <HeroLeft scrollToExperienceSection={scrollToExperienceSection} handleDownLoadEng={handleDownLoadEng} />
             </Col>
             <Col md={6}>
               <HeroRight />

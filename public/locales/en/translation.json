@@ -8,7 +8,8 @@
     },
     "heroSection": {
         "exp": "My Skill",
-        "cv": "Get Resume"
+        "cv": "Get Resume",
+        "eng": "IELTS"
     },
     "introSection": {
         "about": "About me",
